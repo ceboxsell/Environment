@@ -1,14 +1,7 @@
 
 def connect():
     import network
-    
-    #ip        = '192.168.1.10'
-    #subnet    = '255.255.255.0'
-    #gateway   = '192.168.1.1'
-    #dns       = '8.8.8.8'
-    ssid      = "ssid"
-    password  =  "password"
- 
+
     station = network.WLAN(network.STA_IF)
  
     if station.isconnected() == True:
