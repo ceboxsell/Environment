@@ -12,6 +12,14 @@ from uqmtt.robust import MQTTClient
 
 
 from lib import ConnectWifi
+
+#ip        = '192.168.1.10'
+#subnet    = '255.255.255.0'
+#gateway   = '192.168.1.1'
+#dns       = '8.8.8.8'
+ssid      = "ssid"
+password  =  "password"
+
 ConnectWifi.connect()
 
 d = dht.DHT22(machine.Pin(16))
